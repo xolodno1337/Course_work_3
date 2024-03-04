@@ -16,6 +16,5 @@ def main():
         print(f'{to} -> {from_}')
         print(i['operationAmount']['amount'], i['operationAmount']['currency']['name'])
 
-
 if __name__ == '__main__':
     main()
