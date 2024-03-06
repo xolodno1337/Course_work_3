@@ -14,7 +14,7 @@ def main():
         to = mask_account_number(i, 'to')
         from_ = mask_account_number(i, 'from')
         print(f'{to} -> {from_}')
-        print(i['operationAmount']['amount'], i['operationAmount']['currency']['name'])
+        print(f'{i['operationAmount']['amount']} {i['operationAmount']['currency']['name']}]\n')
 
 
 if __name__ == '__main__':
